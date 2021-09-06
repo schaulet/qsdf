@@ -1,0 +1,10 @@
+---
+tools:
+  java:
+    name: "java"
+    global: null
+    versions:
+    - version: "1"
+      path: ".\\config\\installation\\java\\1"
+    - version: "2"
+      path: ".\\config\\installation\\java\\2"

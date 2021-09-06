@@ -1,0 +1,39 @@
+
+
+tools:
+  java:
+    settings:
+      dep:
+    default: 11.0.5
+    versions:
+      1.7.0_67: C:\LOGICIELS\java\jdk1.7.0_67
+      1.7.0_80: C:\LOGICIELS\java\jdk1.7.0_80
+      1.8.0_25: C:\LOGICIELS\java\jdk1.8.0_25
+      1.8.202_b08: C:\LOGICIELS\java\jdk8u202-b08
+      11.0.5: C:\LOGICIELS\java\jdk-11.0.5
+  mvn:
+    settings:
+      - C:\LOGICIELS\Apache\maven-3.6.3\conf\settings.xml
+    dep:
+      - java
+    default: 3.6.3
+    versions:
+      3.0.3: C:\LOGICIELS\Apache\maven-3.0.3\bin\mvn.bat
+      3.6.3: C:\LOGICIELS\Apache\maven-3.6.3\bin\mvn.cmd
+  tomcat:
+    settings:
+      dep:
+        - java
+    default: 8.5.23
+    versions:
+      6.0.32: C:\LOGICIELS\apache-tomcat-6.0.32
+      7.0.63: C:\LOGICIELS\apache-tomcat-7.0.63
+      8.5.23: C:\LOGICIELS\apache-tomcat-8.5.23
+      9.0.46: C:\LOGICIELS\apache-tomcat-9.0.46
+  python:
+    settings:
+    default: Anaconda3
+    versions:
+      Anaconda2: C:\LOGICIELS\Anaconda2
+      Anaconda3: C:\LOGICIELS\Anaconda3
+

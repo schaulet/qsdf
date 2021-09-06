@@ -1,0 +1,20 @@
+quarkus:
+  log:
+    level: "OFF"
+  package:
+    type: "uber-jar"
+  banner:
+    enabled: false
+#  index-dependency.yaml.group-id: com.fasterxml.jackson.jaxrs
+#  index-dependency.yaml.artifact-id: jackson-jaxrs-yaml-provider
+#
+#
+#smallrye:
+#  config:
+#    locations: ./config/
+
+greeting:
+  message: "hello"
+
+#greeting:
+#  message: "hello"
